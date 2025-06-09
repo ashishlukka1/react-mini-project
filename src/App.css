@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+/* Ensure the root layout stretches to full height */
+.app-root-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content area grows to fill space between navbar and footer */
+.app-root-layout main {
+  flex: 1 0 auto;
+  min-height: 70vh; /* Adjust as needed */
+}
+
+/* Footer always at the bottom */
+.footer {
+  margin-top: auto;
+  width: 100%;
+}
+.btn:hover {
+  background-color: #f7931e;
+  color: white;
+}

@@ -1,0 +1,21 @@
+.cart-page {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+/* Ensure the main app/root stretches to full height */
+
+
+/* Footer always at the bottom */
+.place-order{
+    background-color: #f7931e;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 14px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}

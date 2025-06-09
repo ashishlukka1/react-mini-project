@@ -1,0 +1,22 @@
+.navbar{
+    background-color: #f8fafc;
+    padding: 1rem 6rem; 
+    width: 100%;
+}
+.home{
+    color: #F7931E;
+
+}
+.home-container{
+    min-height: 80vh;
+}
+.lead{
+    font-size: medium;
+}
+.popular-restraunts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
