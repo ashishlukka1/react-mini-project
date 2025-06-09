@@ -1,12 +1,49 @@
-# React + Vite
+# Tasty Restraunt - React Mini Project 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a  
+This README will guide you through setup, features, and usage.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A clone of the Swiggy food delivery platform built for learning and demonstration purposes.
+
+## Features
+
+- User authentication
+- Restaurant listing
+- Menu browsing
+- Cart management
+- Order placement
+
+## Installation
+
+```bash
+git clone https://github.com/ashishlukka1/react-mini-project.git
+cd swiggy-clone
+npm install
+```
+
+## Usage
+
+```bash
+npm start
+```
+
+Visit `http://localhost:3000` in your browser.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
